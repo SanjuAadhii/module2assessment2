@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Absolute</title>
+        <style>
+            .absolute{
+                border: 5px solid;
+                position : relative;
+                margin: 50px 50px;
+                padding: 10px
+            }
+            .parent{
+                border: 5px solid;
+                position : relative;
+                margin: 50px 50px;
+                padding: 10px;
+                background-color:light-blue;
+            }
+            .child1{
+                background-color:brown;
+            }
+            .child2{
+                position:absolute;
+                background-color:blanchedalmond;
+                top:50px;
+                left:150px
+            }
+
+        </style>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div >
+            <p class="absolute"><b>Absolute</b> : <br>
+                a.They are  affected by top ,left, bottom or right <br>
+                b.It will affect the document flow <br>
+                c.no space is created  <br>
+                d.it will be positioned w.r.t first positioned element</p>
+
+            <div class="parent">
+                <div class="child1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias at molestiae iusto, suscipit possimus cupiditate.</p>
+                    <div class="child2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum aliquam sit aut dolorem modi ex quis?
+                    </div>
+                </div>
+            </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

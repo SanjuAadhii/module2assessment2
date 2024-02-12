@@ -1,0 +1,10 @@
+div{
+    margin:25px;
+    padding:25px;
+    border: 2px solid ;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
